@@ -1,14 +1,16 @@
 /*
 The code is 10 - 40 - 39
-1. Define an equation that equals 10
-2. Define an equation that equals 40 with a different operator that step 1
-3. Define an equation that equals 39 with a different operator that step 1 and 2
-4. Display the alert of the combination 
+1. Display the alert to the user for the welcome message
+2. Define an equation that equals 10
+3. Define an equation that equals 40 with a different operator that step 2
+4. Define an equation that equals 39 with a different operator that step 2 and 3
+5. Display the alert of the combination 
 */
 
-//initializing the welcome message
-let welcome =
-  "You have received this message because you have been chosen to open an important vault. Here is the secret combination:";
+//displaying the welcome message
+alert(
+  "You have received this message because you have been chosen to open an important vault."
+);
 
 //equation that equals 10
 let num1 = 7 + 3;
@@ -19,8 +21,5 @@ let num2 = 8 * 5;
 //equation that equals 39
 let num3 = 117 / 3;
 
-//combine to a combination
-// let combination = num1 + " - " + num2 + " - " + num3;
-
 //display alert of the combination:
-alert(`Here is your secret combination: ${num1} ${num2} ${num3}`);
+alert(`Here is your secret combination: ${num1} - ${num2} - ${num3}`);
